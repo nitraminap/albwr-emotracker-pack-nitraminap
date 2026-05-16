@@ -1,0 +1,98 @@
+[
+	{
+		"name": "Eastern Palace Entrance",
+		"type": "toggle",
+		"img": "images/items/bow.png",
+		"img_mods": "overlay|images/prizes/labels/EP.png",
+		"loop": true,
+		"codes": "ep_entrance, entrance"
+	},
+	{
+		"name": "House of Gales Entrance",
+		"type": "toggle",
+		"img": "images/items/trod.png",
+		"img_mods": "overlay|images/prizes/labels/HG.png",
+		"loop": true,
+		"codes": "hog_entrance, entrance"
+	},
+	{
+		"name": "Tower of Hera Entrance",
+		"type": "toggle",
+		"img": "images/items/hammer.png",
+		"img_mods": "overlay|images/prizes/labels/TH.png",
+		"loop": true,
+		"codes": "toh_entrance, entrance"
+	},
+	{
+		"name": "Hyrule Castle Entrance",
+		"type": "toggle",
+		"img": "images/items/msword.png",
+		"img_mods": "overlay|images/prizes/labels/HC.png",
+		"loop": true,
+		"codes": "hc_entrance, entrance"
+	},
+	{
+		"name": "Dark Palace Entrance",
+		"type": "toggle",
+		"img": "images/items/bombs.png",
+		"img_mods": "overlay|images/prizes/labels/PD.png",
+		"loop": true,
+		"codes": "pod_entrance, entrance"
+	},
+	{
+		"name": "Swamp Palace Entrance",
+		"type": "toggle",
+		"img": "images/items/hookshot.png",
+		"img_mods": "overlay|images/prizes/labels/SP.png",
+		"loop": true,
+		"codes": "sp_entrance, entrance"
+	},
+	{
+		"name": "Skull Woods Entrance",
+		"type": "toggle",
+		"img": "images/items/lamp.png",
+		"img_mods": "overlay|images/prizes/labels/SW.png",
+		"loop": true,
+		"codes": "sw_entrance, entrance"
+	},
+	{
+		"name": "Thieves' Hideout Entrance",
+		"type": "toggle",
+		"img": "images/items/flippers.png",
+		"img_mods": "overlay|images/prizes/labels/TT.png",
+		"loop": true,
+		"codes": "th_entrance, entrance"
+	},
+	{
+		"name": "Turtle Rock Entrance",
+		"type": "toggle",
+		"img": "images/items/irod.png",
+		"img_mods": "overlay|images/prizes/labels/TR.png",
+		"loop": true,
+		"codes": "tr_entrance, entrance"
+	},
+	{
+		"name": "Desert Palace Entrance",
+		"type": "toggle",
+		"img": "images/items/srod.png",
+		"img_mods": "overlay|images/prizes/labels/DP.png",
+		"loop": true,
+		"codes": "dp_entrance, entrance"
+	},
+	{
+		"name": "Ice Ruins Entrance",
+		"type": "toggle",
+		"img": "images/items/frod.png",
+		"img_mods": "overlay|images/prizes/labels/IR.png",
+		"loop": true,
+		"codes": "ir_entrance, entrance"
+	},
+	{
+		"name": "Lorule Castle Entrance",
+		"type": "toggle",
+		"img": "images/items/bow_light.png",
+		"img_mods": "overlay|images/prizes/labels/LC.png",
+		"loop": true,
+		"codes": "lc_entrance, entrance"
+}
+]

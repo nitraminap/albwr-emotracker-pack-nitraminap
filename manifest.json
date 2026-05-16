@@ -1,0 +1,18 @@
+﻿{
+  "name": "Test Tracker for ALBWR",
+  "package_uid": "nitraminap_test_albwr_tracker",
+  "author": "nitraminap",
+  "version": "1.0.0",
+  "platform": "3DS",
+  "variants": {
+    "standard": {
+      "display_name": "Standard Map Tracker"
+    },
+    "compact": {
+      "display_name": "Compact Map Tracker"
+    },
+    "items_only": {
+      "display_name": "Item Tracker"
+    }
+  }
+}

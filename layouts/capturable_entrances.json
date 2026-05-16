@@ -1,0 +1,34 @@
+{
+  "tracker_capture_entrances":
+  {
+    "type": "container",
+    "content": [
+      {
+        "type": "itemgrid",
+        "dropshadow": true,
+        "h_alignment": "center",
+        "item_size": "32",
+        "item_margin": "1,1",
+        "margin": "1",
+        "rows": [
+         [
+            "ep_entrance",
+            "hog_entrance",
+            "toh_entrance",
+            "hc_entrance"
+          ],
+          [
+            "pod_entrance",
+            "sp_entrance",
+            "sw_entrance",
+            "th_entrance",
+            "tr_entrance",
+            "dp_entrance",
+            "ir_entrance",
+            "lc_entrance"
+          ]
+        ]
+      }
+    ]
+  }
+}

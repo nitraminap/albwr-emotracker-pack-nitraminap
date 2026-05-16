@@ -1,0 +1,411 @@
+[
+  {
+    "name": "Death Mountain",
+    "children": [
+      {
+        "name": "Death Mountain",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+            "x": 885,
+            "y": 373
+          }
+        ],
+        "sections": [
+          {
+            "name": "Blocked Cave",
+            "access_rules": [
+              "{csmc, $access_dm_west_base}",
+              "$access_dm_west_base, merge, bombs",
+              "[glitched], merge, bombs",
+              "[glitched], $access_dm_west_top, $stun, bombs",
+              "[advanced], $adv_glitched_access_dm_west_top, $stun, bombs",
+              "[hell], $hell_access_dm_west_top, $stun, bombs"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+            "x": 1193,
+            "y": 385
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fairy Cave",
+            "access_rules": [
+              "{csmc, $access_dm_west_base, merge}",
+              "{csmc, glitched, merge}",
+              "{csmc, glitched, $access_dm_west_top, $boom_hook_fire}",
+              "{csmc, advanced, $adv_glitched_access_dm_west_top, $boom_hook_fire}",
+              "{csmc, hell, $hell_access_dm_west_top, $boom_hook_fire}",
+
+              "$access_dm_west_base, merge, $boulder",
+              "[glitched], merge, $boulder",
+              "[glitched], $access_dm_west_top, nicebombs",
+              "[glitched], $access_dm_west_top, frod, hammer",
+              "[glitched], $access_dm_west_top, $stun, $boulder",
+              "[advanced], $adv_glitched_access_dm_west_top, nicebombs",
+              "[advanced], $adv_glitched_access_dm_west_top, frod, hammer",
+              "[advanced], $adv_glitched_access_dm_west_top, $stun, $boulder",
+              "[hell], $hell_access_dm_west_top, bombs",
+              "[hell], $hell_access_dm_west_top, frod, hammer",
+              "[hell], $hell_access_dm_west_top, $stun, $boulder"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+            "x": 1097,
+            "y": 221
+          }
+        ],
+        "sections": [
+          {
+            "name": "Donkey Cave",
+            "access_rules": [
+              "{csmc, power_glove}",
+              "{csmc, glitched, merge}",
+              "{csmc, $access_dm_west_top}",
+              "{csmc, advanced, $adv_glitched_access_dm_west_top}",
+              "{csmc, hell, $hell_access_dm_west_top}",
+
+              "$access_dm_west_top, hammer",
+              "[glitched], merge, hammer",
+              "[advanced], $adv_glitched_access_dm_west_top, hammer",
+              "[hell], $hell_access_dm_west_top, hammer"
+            ],
+            "capture_item": true,
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+            "x": 985,
+            "y": 373
+          }
+        ],
+        "sections": [
+          {
+            "name": "Open Cave",
+            "access_rules": [
+              "$access_dm_west_base",
+              "[glitched]"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+            "x": 1025,
+            "y": 251
+          }
+        ],
+        "sections": [
+          {
+            "name": "Donkey Cave Ledge",
+            "access_rules": [
+              "power_glove, merge",
+              "$access_dm_west_top",
+              "[glitched], merge",
+              "[advanced], $adv_glitched_access_dm_west_top",
+              "[hell], $hell_access_dm_west_top"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+            "x": 963,
+            "y": 173
+          }
+        ],
+        "sections": [
+          {
+            "name": "West Highest Cave",
+            "access_rules": [
+              "power_glove, merge",
+              "$access_dm_west_top",
+              "[glitched], merge",
+              "[advanced], $adv_glitched_access_dm_west_top",
+              "[hell], $hell_access_dm_west_top"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+            "x": 1025,
+            "y": 49
+          }
+        ],
+        "sections": [
+          {
+            "name": "Spectacle Rock",
+            "access_rules": [
+              "power_glove, merge",
+              "$access_dm_west_top",
+              "[glitched], merge",
+              "[advanced], $adv_glitched_access_dm_west_top",
+              "[hell], $hell_access_dm_west_top"
+            ],
+            "capture_item": true,
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+            "x": 1878,
+            "y": 168
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hookshot Mini-Dungeon",
+            "access_rules": [
+              "$access_dm_east_top, merge, hookshot",
+              "[glitched], merge, hookshot",
+              "[advanced], $adv_glitched_access_dm_east_top, merge, hookshot"
+            ],
+            "capture_item": true,
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+            "x": 1715,
+            "y": 155
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fire Cave Pillar",
+            "capture_item": true,
+            "access_rules": [
+              "$access_dm_east_top, merge, hammer",
+              "[glitched], merge, hookshot, hammer",
+              "[advanced], $adv_glitched_access_dm_east_top, merge, hammer"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+            "x": 1695,
+            "y": 227
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bouldering Guy",
+            "access_rules": [
+              "$access_dm_east_top, merge, premium_milk",
+              "[glitched], merge, hookshot, premium_milk",
+              "[advanced], $adv_glitched_access_dm_east_top, premium_milk, merge",
+              "[advanced], $adv_glitched_access_dm_east_top, premium_milk, trod, boots"
+            ],
+            "capture_item": true,
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+            "x": 1625,
+            "y": 79
+          }
+        ],
+        "sections": [
+          {
+            "name": "Floating Island Crack",
+            "hosted_item": "crack_hyfi",
+            "access_rules": [
+              "crack_hyfi"
+            ],
+            "visibility_rules": [
+              "cracksanity"
+            ]
+          },
+          {
+            "name": "Floating Island",
+            "access_rules": [
+              "crack_hyfi, merge",
+              "not_cracksanity, crack_lofi, merge, quake"
+            ],
+            "capture_item": true,
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lorule Death Mountain",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+            "x": 1147,
+            "y": 248
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ice Gimos Fight",
+            "access_rules": [
+              "$access_ldm_west, $attack_iceproof",
+              "[glitched], $glitched_access_ldm_west, $attack_iceproof"
+            ],
+            "capture_item": true,
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lorule Death Mountain",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+            "x": 1061,
+            "y": 348
+          }
+        ],
+        "sections": [
+          {
+            "name": "Lorule Mountain W Ledge",
+            "item_count": 1,
+            "access_rules": [
+              "$access_ldm_west, merge",
+              "[glitched], $glitched_access_ldm_west, merge",
+              "[glitched], $glitched_access_ldm_west, nicebombs",
+              "[hell], $glitched_access_ldm_west, bombs"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lorule Death Mountain",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+            "x": 1149,
+            "y": 65
+          }
+        ],
+        "sections": [
+          {
+            "name": "Treacherous Tower",
+            "access_rules": [
+              "$access_ldm_west, $attack, [bombs]",
+              "$access_ldm_west, $attack, [hammer]",
+              "$access_ldm_west, $attack, [trod]",
+              "[glitched], $glitched_access_ldm_west, $attack, [bombs]",
+              "[glitched], $glitched_access_ldm_west, $attack, [hammer]",
+              "[glitched], $glitched_access_ldm_west, $attack, [trod]"
+            ],
+            "capture_item": true,
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lorule Death Mountain",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+            "x": 1319,
+            "y": 140
+          }
+        ],
+        "sections": [
+          {
+            "name": "Behind Ice Gimos",
+            "access_rules": [
+              "frod, $access_ldm_east_top",
+              "[glitched], frod, $glitched_access_ldm_east_top",
+              "[hell], frod, $hell_access_ldm_east_top"
+            ],
+            "capture_item": true,
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lorule Death Mountain",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+            "x": 1695,
+            "y": 227
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ice Cave Ledge",
+            "access_rules": [
+              "{csmc, $access_ldm_east_top}",
+              "trod, merge, $access_ldm_east_top",
+              "[glitched], trod, merge, $glitched_access_ldm_east_top",
+              "[hell], trod, merge, $hell_access_ldm_east_top"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  }
+]

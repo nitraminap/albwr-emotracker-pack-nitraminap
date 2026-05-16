@@ -1,0 +1,680 @@
+[
+	{
+		"name": "Eastern Palace",
+		"map_locations": [
+			{
+				"map": "ep1F",
+				"x": 89,
+				"y": 160
+			}
+		],
+		"sections": [
+			{
+				"name": "Eastern Palace Entrance",
+				"hosted_item": "ep_entrance",
+				"visibility_rules": [
+					"ER"
+				]
+			}
+		]
+	},
+	{
+		"name": "House of Gales",
+		"map_locations": [
+			{
+				"map": "hog1F",
+				"x": 91,
+				"y": 160
+			}
+		],
+		"sections": [
+			{
+				"name": "House of Gales Entrance",
+				"hosted_item": "hog_entrance",
+				"visibility_rules": [
+					"ER"
+				]
+			}
+		]
+	},
+	{
+		"name": "Tower of Hera",
+		"map_locations": [
+			{
+				"map": "hera1F",
+				"x": 92,
+				"y": 137
+			}
+		],
+		"sections": [
+			{
+				"name": "Tower of Hera Entrance",
+				"hosted_item": "toh_entrance",
+				"visibility_rules": [
+					"ER"
+				]
+			}
+		]
+	},
+	{
+		"name": "Hyrule Castle",
+		"map_locations": [
+			{
+				"map": "hyrule2F",
+        "x": 55,
+        "y": 137
+			}
+		],
+		"sections": [
+			{
+				"name": "Hyrule Castle Entrance",
+				"hosted_item": "hc_entrance",
+				"visibility_rules": [
+					"ER"
+				]
+			}
+		]
+	},
+	{
+		"name": "Dark Palace",
+		"map_locations": [
+			{
+				"map": "dark1F",
+				"x": 89,
+				"y": 174
+			}
+		],
+		"sections": [
+			{
+				"name": "Dark Palace Entrance",
+				"hosted_item": "pod_entrance",
+				"visibility_rules": [
+					"ER"
+				]
+			}
+		]
+	},
+	{
+		"name": "Swamp Palace",
+		"map_locations": [
+			{
+				"map": "swamp1F",
+				"x": 89,
+				"y": 174
+			}
+		],
+		"sections": [
+			{
+				"name": "Swamp Palace Entrance",
+				"hosted_item": "sp_entrance",
+				"visibility_rules": [
+					"ER"
+				]
+			}
+		]
+	},
+	{
+		"name": "Skull Woods",
+		"map_locations": [
+			{
+				"map": "skullB1",
+				"x": 103,
+				"y": 167
+			}
+		],
+		"sections": [
+			{
+				"name": "Skull Woods Entrance",
+				"hosted_item": "sw_entrance",
+				"visibility_rules": [
+					"ER"
+				]
+			}
+		]
+	},
+	{
+		"name": "Thieves' Hideout",
+		"map_locations": [
+			{
+				"map": "thievesB1",
+				"x": 89,
+				"y": 153
+			}
+		],
+		"sections": [
+			{
+				"name": "Thieves' Hideout Entrance",
+				"hosted_item": "th_entrance",
+				"visibility_rules": [
+					"ER"
+				]
+			}
+		]
+	},
+	{
+		"name": "Turtle Rock",
+		"map_locations": [
+			{
+				"map": "turtle1F",
+				"x": 89,
+				"y": 164
+			}
+		],
+		"sections": [
+			{
+				"name": "Turtle Rock Entrance",
+				"hosted_item": "tr_entrance",
+				"visibility_rules": [
+					"ER"
+				]
+			}
+		]
+	},
+	{
+		"name": "Desert Palace",
+		"map_locations": [
+			{
+				"map": "desert1F",
+				"x": 91,
+				"y": 161
+			}
+		],
+		"sections": [
+			{
+				"name": "Desert Palace Entrance",
+				"hosted_item": "dp_entrance",
+				"visibility_rules": [
+					"ER"
+				]
+			}
+		]
+	},
+	{
+		"name": "Ice Ruins",
+		"map_locations": [
+			{
+				"map": "ice1F",
+				"x": 90,
+				"y": 161
+			}
+		],
+		"sections": [
+			{
+				"name": "Ice Ruins Entrance",
+				"hosted_item": "ir_entrance",
+				"visibility_rules": [
+					"ER"
+				]
+			}
+		]
+	},
+	{
+		"name": "Lorule Castle",
+		"map_locations": [
+			{
+				"map": "lorule1F",
+				"x": 97,
+				"y": 161
+			}
+		],
+		"sections": [
+			{
+				"name": "Lorule Castle Entrance",
+				"hosted_item": "lc_entrance",
+				"visibility_rules": [
+					"ER"
+				]
+			}
+		]
+	},
+  {
+    "name": "Eastern Palace Exterior Entrance",
+    "chest_unopened_img": "images/settings/entrance.png",
+    "chest_opened_img": "images/settings/entrance_disabled.png",
+    "access_rules": [
+      "merge",
+      "bow",
+      "hookshot",
+      "boomerang",
+      "bombs",
+      "irod",
+      "great_spin, fsword",
+      "bell, wv_eastern",
+      "[hard], power_glove"
+    ],
+    "map_locations": [
+      {
+        "map": "hyrule",
+        "x": 1921,
+        "y": 872,
+        "force_invisibility_rules": [
+          "maiamai_map_only, $hasNot|ER_only", 
+          "weathervania_only, $hasNot|ER_only", 
+          "cracksanity_only, $hasNot|ER_only", 
+          "hint_ghosts_only, $hasNot|ER_only", 
+          "not_er"
+        ],
+        "badge_size": 80
+      }
+    ],
+    "sections": [
+      {
+        "name": "Entrance to...",
+        "capture_item": true,
+        "clear_on_capture": true,
+        "capture_item_layout": "tracker_capture_entrances",
+        "capture_persist": true,
+        "capture_badge_offset": "-40, -40",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "House of Gales Exterior Entrance",
+    "chest_unopened_img": "images/settings/entrance.png",
+    "chest_opened_img": "images/settings/entrance_disabled.png",
+    "access_rules": [
+      "flippers",
+      "wv_gales, bell",
+      "[advanced], $fakeFlippers",
+      "[advanced], irod, hookshot"
+    ],
+    "map_locations": [
+      {
+        "map": "hyrule",
+        "x": 1620,
+        "y": 1781,
+        "force_invisibility_rules": [
+          "maiamai_map_only, $hasNot|ER_only", 
+          "weathervania_only, $hasNot|ER_only", 
+          "cracksanity_only, $hasNot|ER_only", 
+          "hint_ghosts_only, $hasNot|ER_only", 
+          "not_er"
+        ],
+        "badge_size": 80
+      }
+    ],
+    "sections": [
+      {
+        "name": "Entrance to...",
+        "capture_item": true,
+        "clear_on_capture": true,
+        "capture_item_layout": "tracker_capture_entrances",
+        "capture_persist": true,
+        "capture_badge_offset": "-40, -40",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Tower of Hera Exterior Entrance",
+    "chest_unopened_img": "images/settings/entrance.png",
+    "chest_opened_img": "images/settings/entrance_disabled.png",
+    "access_rules": [
+        "power_glove, merge, hammer",
+        "$access_dm_west_top, hammer",
+        "[glitched], merge, hammer",
+        "[advanced], $adv_glitched_access_dm_west_top, hammer",
+        "[hell], $hell_access_dm_west_top, hammer"
+    ],
+    "map_locations": [
+      {
+        "map": "hyrule",
+        "x": 1211,
+        "y": 111,
+        "force_invisibility_rules": [
+          "maiamai_map_only, $hasNot|ER_only", 
+          "weathervania_only, $hasNot|ER_only", 
+          "cracksanity_only, $hasNot|ER_only", 
+          "hint_ghosts_only, $hasNot|ER_only", 
+          "not_er"
+        ],
+        "badge_size": 80
+      }
+    ],
+    "sections": [
+      {
+        "name": "Entrance to...",
+        "capture_item": true,
+        "clear_on_capture": true,
+        "capture_item_layout": "tracker_capture_entrances",
+        "capture_persist": true,
+        "capture_badge_offset": "-40, -40",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Hyrule Castle Exterior Entrance",
+    "chest_unopened_img": "images/settings/entrance.png",
+    "chest_opened_img": "images/settings/entrance_disabled.png",
+    "access_rules": [
+      "msword",
+      "swordless",
+      "[], $barrier_skip"
+    ],
+    "map_locations": [
+      {
+        "map": "hyrule",
+        "x": 1024,
+        "y": 863,
+        "force_invisibility_rules": [
+          "maiamai_map_only, $hasNot|ER_only", 
+          "weathervania_only, $hasNot|ER_only", 
+          "cracksanity_only, $hasNot|ER_only", 
+          "hint_ghosts_only, $hasNot|ER_only", 
+          "not_er"
+        ],
+        "badge_size": 80
+      }
+    ],
+    "sections": [
+      {
+        "name": "Entrance to...",
+        "capture_item": true,
+        "clear_on_capture": true,
+        "capture_item_layout": "tracker_capture_entrances",
+        "capture_persist": true,
+        "capture_badge_offset": "-40, -40",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Dark Palace Exterior Entrance",
+    "chest_unopened_img": "images/settings/entrance.png",
+    "chest_opened_img": "images/settings/entrance_disabled.png",
+    "access_rules": [
+      "$access_dark_ruins, bombs",
+      "[glitched], $glitched_access_dark_ruins, bombs",
+      "[advanced], $advanced_access_dark_ruins, bombs",
+      "[hell], $hell_access_dark_ruins, bombs"
+    ],
+    "map_locations": [
+      {
+        "map": "lorule",
+        "x": 1921,
+        "y": 924,
+        "force_invisibility_rules": [
+          "maiamai_map_only, $hasNot|ER_only", 
+          "weathervania_only, $hasNot|ER_only", 
+          "cracksanity_only, $hasNot|ER_only", 
+          "hint_ghosts_only, $hasNot|ER_only", 
+          "not_er"
+        ],
+        "badge_size": 80
+      }
+    ],
+    "sections": [
+      {
+        "name": "Entrance to...",
+        "capture_item": true,
+        "clear_on_capture": true,
+        "capture_item_layout": "tracker_capture_entrances",
+        "capture_persist": true,
+        "capture_badge_offset": "-40, -40",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Swamp Palace Exterior Entrance",
+    "chest_unopened_img": "images/settings/entrance.png",
+    "chest_opened_img": "images/settings/entrance_disabled.png",
+    "access_rules": [
+      "$access_central_lorule, flippers, hookshot",
+      "[advanced], $advanced_access_central_lorule, flippers, hookshot",
+      "[hell], $hell_access_central_lorule, flippers, hookshot"
+    ],
+    "map_locations": [
+      {
+        "map": "lorule",
+        "x": 962,
+        "y": 1880,
+        "force_invisibility_rules": [
+          "maiamai_map_only, $hasNot|ER_only", 
+          "weathervania_only, $hasNot|ER_only", 
+          "cracksanity_only, $hasNot|ER_only", 
+          "hint_ghosts_only, $hasNot|ER_only", 
+          "not_er"
+        ],
+        "badge_size": 80
+      }
+    ],
+    "sections": [
+      {
+        "name": "Entrance to...",
+        "capture_item": true,
+        "clear_on_capture": true,
+        "capture_item_layout": "tracker_capture_entrances",
+        "capture_persist": true,
+        "capture_badge_offset": "-40, -40",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Skull Woods Exterior Entrance",
+    "chest_unopened_img": "images/settings/entrance.png",
+    "chest_opened_img": "images/settings/entrance_disabled.png",
+    "access_rules": [
+        "$access_skull_woods_area"
+    ],
+    "map_locations": [
+      {
+        "map": "lorule",
+        "x": 363,
+        "y": 390,
+        "force_invisibility_rules": [
+          "maiamai_map_only, $hasNot|ER_only", 
+          "weathervania_only, $hasNot|ER_only", 
+          "cracksanity_only, $hasNot|ER_only", 
+          "hint_ghosts_only, $hasNot|ER_only", 
+          "not_er"
+        ],
+        "badge_size": 80
+      }
+    ],
+    "sections": [
+      {
+        "name": "Entrance to...",
+        "capture_item": true,
+        "clear_on_capture": true,
+        "capture_item_layout": "tracker_capture_entrances",
+        "capture_persist": true,
+        "capture_badge_offset": "-40, -40",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Thieves' Hideout Exterior Entrance",
+    "chest_unopened_img": "images/settings/entrance.png",
+    "chest_opened_img": "images/settings/entrance_disabled.png",
+    "access_rules": [
+      "$access_central_lorule",
+      "[advanced], $advanced_access_central_lorule",
+      "[hell], $hell_access_central_lorule"
+    ],
+    "map_locations": [
+      {
+        "map": "lorule",
+        "x": 324,
+        "y": 1023,
+        "force_invisibility_rules": [
+          "maiamai_map_only, $hasNot|ER_only", 
+          "weathervania_only, $hasNot|ER_only", 
+          "cracksanity_only, $hasNot|ER_only", 
+          "hint_ghosts_only, $hasNot|ER_only", 
+          "not_er"
+        ],
+        "badge_size": 80
+      }
+    ],
+    "sections": [
+      {
+        "name": "Entrance to...",
+        "capture_item": true,
+        "clear_on_capture": true,
+        "capture_item_layout": "tracker_capture_entrances",
+        "capture_persist": true,
+        "capture_badge_offset": "-40, -40",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Turtle Rock Exterior Entrance",
+    "chest_unopened_img": "images/settings/entrance.png",
+    "chest_opened_img": "images/settings/entrance_disabled.png",
+    "access_rules": [
+      "[], not_cracksanity, quake, flippers, trod",
+      "[], cracksanity, crack_lake_lorule, flippers, trod",
+      "[], cracksanity, crack_river_lorule, flippers, trod",
+      "[], cracksanity, crack_lorule_hotfoot, flippers, trod",
+      "[], [advanced], cracksanity, crack_lorule_hotfoot, $fakeFlippers, trod",
+      "[], [hell], cracksanity, crack_lorule_hotfoot, $beeFakeFlippers, trod",
+      "[], $warpLorule, bell, wv_turtle, flippers, trod",
+      "[], [glitched], $glitched_access_dark_ruins, $boost, flippers, trod",
+      "[], [advanced], $advanced_access_dark_ruins, $fakeFlippers, trod",
+      "[], [hell], $hell_access_dark_ruins, $beeFakeFlippers, trod",
+
+      "$enterTR",
+      "$advanced_enterTR",
+      "hell_enterTR"
+    ],
+    "map_locations": [
+      {
+        "map": "lorule",
+        "x": 1572,
+        "y": 1782,
+        "force_invisibility_rules": [
+          "maiamai_map_only, $hasNot|ER_only", 
+          "weathervania_only, $hasNot|ER_only", 
+          "cracksanity_only, $hasNot|ER_only", 
+          "hint_ghosts_only, $hasNot|ER_only", 
+          "not_er"
+        ],
+        "badge_size": 80
+      }
+    ],
+    "sections": [
+      {
+        "name": "Entrance to...",
+        "capture_item": true,
+        "clear_on_capture": true,
+        "capture_item_layout": "tracker_capture_entrances",
+        "capture_persist": true,
+        "capture_badge_offset": "-40, -40",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Desert Palace Exterior Entrance",
+    "chest_unopened_img": "images/settings/entrance.png",
+    "chest_opened_img": "images/settings/entrance_disabled.png",
+    "access_rules": [
+      "$access_desert_palace",
+      "[glitched], $glitched_access_desert_palace"
+    ],
+    "map_locations": [
+      {
+        "map": "hyrule",
+        "x": 185,
+        "y": 1677,
+        "force_invisibility_rules": [
+          "maiamai_map_only, $hasNot|ER_only", 
+          "weathervania_only, $hasNot|ER_only", 
+          "cracksanity_only, $hasNot|ER_only", 
+          "hint_ghosts_only, $hasNot|ER_only", 
+          "not_er"
+        ],
+        "badge_size": 80
+      }
+    ],
+    "sections": [
+      {
+        "name": "Entrance to...",
+        "capture_item": true,
+        "clear_on_capture": true,
+        "capture_item_layout": "tracker_capture_entrances",
+        "capture_persist": true,
+        "capture_badge_offset": "-40, -40",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Ice Ruins Exterior Entrance",
+    "chest_unopened_img": "images/settings/entrance.png",
+    "chest_opened_img": "images/settings/entrance_disabled.png",
+    "access_rules": [
+        "$access_ldm_east_top",
+        "[glitched], $glitched_access_ldm_east_top",
+        "[hell], $hell_access_ldm_east_top"
+    ],
+    "map_locations": [
+      {
+        "map": "lorule",
+        "x": 1880,
+        "y": 228,
+        "force_invisibility_rules": [
+          "maiamai_map_only, $hasNot|ER_only", 
+          "weathervania_only, $hasNot|ER_only", 
+          "cracksanity_only, $hasNot|ER_only", 
+          "hint_ghosts_only, $hasNot|ER_only", 
+          "not_er"
+        ],
+        "badge_size": 80
+      }
+    ],
+    "sections": [
+      {
+        "name": "Entrance to...",
+        "capture_item": true,
+        "clear_on_capture": true,
+        "capture_item_layout": "tracker_capture_entrances",
+        "capture_persist": true,
+        "capture_badge_offset": "-40, -40",
+        "item_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Lorule Castle Exterior Entrance",
+    "chest_unopened_img": "images/settings/entrance.png",
+    "chest_opened_img": "images/settings/entrance_disabled.png",
+    "access_rules": [
+      "$access_central_lorule, $lc_requirement",
+      "[advanced], $advanced_access_central_lorule, $lc_requirement",
+      "[hell], $hell_access_central_lorule, $lc_requirement"
+    ],
+    "map_locations": [
+      {
+        "map": "lorule",
+        "x": 1024,
+        "y": 1005,
+        "force_invisibility_rules": [
+          "maiamai_map_only, $hasNot|ER_only", 
+          "weathervania_only, $hasNot|ER_only", 
+          "cracksanity_only, $hasNot|ER_only", 
+          "hint_ghosts_only, $hasNot|ER_only", 
+          "not_er"
+        ],
+        "badge_size": 80
+      }
+    ],
+    "sections": [
+      {
+        "name": "Entrance to...",
+        "capture_item": true,
+        "clear_on_capture": true,
+        "capture_item_layout": "tracker_capture_entrances",
+        "capture_persist": true,
+        "capture_badge_offset": "-40, -40",
+        "item_count": 1
+      }
+    ]
+  }
+]

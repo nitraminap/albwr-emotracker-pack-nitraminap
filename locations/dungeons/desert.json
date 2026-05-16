@@ -1,0 +1,553 @@
+[
+  {
+    "name": "Desert Palace",
+    "color": "#2d3bb7",
+    "access_rules": [
+      "$access_desert_palace, not_er",
+      "[glitched], $glitched_access_desert_palace, not_er",
+      "ER, dp_entrance",
+      "[advanced], $reverseDP"
+    ],
+    "children": [
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert1F",
+            "x": 91,
+            "y": 98
+          }
+        ],
+        "sections": [
+          {
+            "name": "(1F) Entrance",
+            "hosted_item": "dp_chest_01",
+            "access_rules": [
+              "{csmc}",
+              "srod, merge",
+              "[], srod, trod",
+              "[advanced], $reverseDP"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert1F",
+            "x": 46,
+            "y": 54
+          }
+        ],
+        "sections": [
+          {
+            "name": "(1F) Sand Room (North)",
+            "hosted_item": "dp_chest_02",
+            "access_rules": [
+              "srod, [$switch], $attack, merge",
+              "[advanced], $reverseDP, merge",
+              "[], srod, $attack, trod"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert1F",
+            "x": 41,
+            "y": 82
+          }
+        ],
+        "sections": [
+          {
+            "name": "(1F) Sand Room (South)",
+            "hosted_item": "dp_chest_03",
+            "access_rules": [
+              "srod, [$switch], $attack, merge",
+              "[advanced], $reverseDP, merge",
+              "[], srod, $attack, trod"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert1F",
+            "x": 54,
+            "y": 26
+          }
+        ],
+        "sections": [
+          {
+            "name": "(1F) Sand Switch Room",
+            "hosted_item": "dp_chest_04",
+            "access_rules": [
+              "srod, [$switch], $attack, merge",
+              "[advanced], $reverseDP, merge",
+              "[], srod, $attack, trod"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert1F",
+            "x": 54,
+            "y": 136
+          }
+        ],
+        "sections": [
+          {
+            "name": "(1F) Behind Rocks",
+            "hosted_item": "dp_chest_05",
+            "access_rules": [
+              "{csmc, srod, merge, $attack}",
+              "{csmc, advanced, $reverseDP, $attack}",
+              "srod, [$switch], $attack, titansmitt, merge",
+              "[advanced], $reverseDP, titansmitt",
+              "[], srod, $attack, trod"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert1F",
+            "x": 110,
+            "y": 27
+          }
+        ],
+        "sections": [
+          {
+            "name": "(1F) Big Chest (Behind Wall)",
+            "hosted_item": "dp_chest_06",
+            "access_rules": [
+              "{csmc, srod, merge}",
+              "{csmc, srod, trod}",
+              "$dp_small_keys|1, srod, [$switch], $attack, merge",
+              "[advanced], $dp_small_keys|1, $reverseDP, merge"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert2F",
+            "x": 98,
+            "y": 61
+          }
+        ],
+        "sections": [
+          {
+            "name": "(2F) Beamos Room",
+            "hosted_item": "dp_chest_07",
+            "access_rules": [
+              "$dp2F",
+              "[advanced], $reverseDP"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert2F",
+            "x": 68,
+            "y": 54
+          }
+        ],
+        "sections": [
+          {
+            "name": "(2F) Under Rock (Left)",
+            "capture_item": true,
+            "hosted_item": "dp_chest_08",
+            "access_rules": [
+              "$dp2F",
+              "[advanced], $reverseDP, titansmitt"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert2F",
+            "x": 113,
+            "y": 54
+          }
+        ],
+        "sections": [
+          {
+            "name": "(2F) Under Rock (Right)",
+            "capture_item": true,
+            "hosted_item": "dp_chest_09",
+            "access_rules": [
+              "$dp2F, [$switch]",
+              "[advanced], $reverseDP, titansmitt"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert2F",
+            "x": 148,
+            "y": 76
+          }
+        ],
+        "sections": [
+          {
+            "name": "(2F) Big Chest (Puzzle)",
+            "hosted_item": "dp_chest_10",
+            "access_rules": [
+              "$dp2F, [$switch], merge",
+              "[advanced], $reverseDP, merge",
+              "[], $reverseDP, trod"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert2F",
+            "x": 148,
+            "y": 88
+          }
+        ],
+        "sections": [
+          {
+            "name": "(2F) Red/Blue Switches",
+            "hosted_item": "dp_chest_11",
+            "access_rules": [
+              "$dp2F, [$switch]",
+              "[advanced], $reverseDP"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert2F",
+            "x": 148,
+            "y": 33
+          }
+        ],
+        "sections": [
+          {
+            "name": "(2F) Under Rock (Ball Room)",
+            "capture_item": true,
+            "hosted_item": "dp_chest_12",
+            "access_rules": [
+              "$dp2F, [$switch]",
+              "[advanced], $reverseDP, titansmitt"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert2F",
+            "x": 45,
+            "y": 89
+          }
+        ],
+        "sections": [
+          {
+            "name": "(2F) Leever Room",
+            "hosted_item": "dp_chest_13",
+            "access_rules": [
+              "$dp2F, $dp_small_keys|3",
+              "[advanced], $dp2F, trod",
+              "[advanced], $reverseDP, $attack",
+              "[], $dp2F, $dp_small_keys|2"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert3F",
+            "x": 33,
+            "y": 24
+          }
+        ],
+        "sections": [
+          {
+            "name": "(3F) Behind Falling Sand",
+            "hosted_item": "dp_chest_14",
+            "access_rules": [
+              "$dp2F, $dp_small_keys|4",
+              "[advanced], $dp2F, trod, boots",
+              "[advanced], $reverseDP",
+              "[], $dp2F, $dp_small_keys|3"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "desert3F",
+            "x": 100,
+            "y": 88
+          }
+        ],
+        "sections": [
+          {
+            "name": "(3F) Gimos Room",
+            "hosted_item": "dp_chest_15",
+            "access_rules": [
+              "$dp2F, $dp_small_keys|4",
+              "[advanced], $dp2F, trod, boots",
+              "[advanced], $reverseDP",
+              "[], $dp2F, $dp_small_keys|3"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desert Palace",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "force_invisibility_rules": [
+              "maiamai_map_only", 
+              "weathervania_only", 
+              "cracksanity_only", 
+              "hint_ghosts_only",
+              "ER_only"
+            ],
+            "x": 185,
+            "y": 1605
+          }
+        ],
+        "sections": [
+          {
+            "name": "(1F) Entrance",
+            "hosted_item": "dp_chest_01",
+            "access_rules": [
+              "{csmc}",
+              "srod, merge",
+              "[], srod, trod"
+            ]
+          },
+          {
+            "name": "(1F) Sand Room (North)",
+            "hosted_item": "dp_chest_02",
+            "access_rules": [
+              "srod, [$switch], $attack, merge",
+              "[advanced], $reverseDP, merge",
+              "[], srod, $attack, trod"
+            ]
+          },
+          {
+            "name": "(1F) Sand Room (South)",
+            "hosted_item": "dp_chest_03",
+            "access_rules": [
+              "srod, [$switch], $attack, merge",
+              "[advanced], $reverseDP, merge",
+              "[], srod, $attack, trod"
+            ]
+          },
+          {
+            "name": "(1F) Sand Switch Room",
+            "hosted_item": "dp_chest_04",
+            "access_rules": [
+              "srod, [$switch], $attack, merge",
+              "[advanced], $reverseDP, merge",
+              "[], srod, $attack, trod"
+            ]
+          },
+          {
+            "name": "(1F) Behind Rocks",
+            "hosted_item": "dp_chest_05",
+            "access_rules": [
+              "{csmc, srod, merge}",
+              "{csmc, advanced, $reverseDP}",
+              "srod, [$switch], $attack, titansmitt, merge",
+              "[advanced], $reverseDP, titansmitt",
+              "[], srod, $attack, trod"
+            ]
+          },
+          {
+            "name": "(1F) Big Chest (Behind Wall)",
+            "hosted_item": "dp_chest_06",
+            "access_rules": [
+              "{csmc, srod, merge}",
+              "$dp_small_keys|1, srod, [$switch], $attack, merge",
+              "[advanced], $dp_small_keys|1, $reverseDP, merge"
+            ]
+          },
+          {
+            "name": "(2F) Beamos Room",
+            "hosted_item": "dp_chest_07",
+            "access_rules": [
+              "$dp2F",
+              "[advanced], $reverseDP"
+            ]
+          },
+          {
+            "name": "(2F) Under Rock (Left)",
+            "capture_item": true,
+            "hosted_item": "dp_chest_08",
+            "access_rules": [
+              "$dp2F",
+              "[advanced], $reverseDP, titansmitt"
+            ]
+          },
+          {
+            "name": "(2F) Under Rock (Right)",
+            "capture_item": true,
+            "hosted_item": "dp_chest_09",
+            "access_rules": [
+              "$dp2F, [$switch]",
+              "[advanced], $reverseDP, titansmitt"
+            ]
+          },
+          {
+            "name": "(2F) Big Chest (Puzzle)",
+            "hosted_item": "dp_chest_10",
+            "access_rules": [
+              "$dp2F, [$switch], merge",
+              "[advanced], $reverseDP, merge",
+              "[], $reverseDP, trod"
+            ]
+          },
+          {
+            "name": "(2F) Red/Blue Switches",
+            "hosted_item": "dp_chest_11",
+            "access_rules": [
+              "$dp2F",
+              "[advanced], $reverseDP"
+            ]
+          },
+          {
+            "name": "(2F) Under Rock (Ball Room)",
+            "capture_item": true,
+            "hosted_item": "dp_chest_12",
+            "access_rules": [
+              "$dp2F",
+              "[advanced], $reverseDP, titansmitt"
+            ]
+          },
+          {
+            "name": "(2F) Leever Room",
+            "hosted_item": "dp_chest_13",
+            "access_rules": [
+              "$dp2F, $dp_small_keys|3",
+              "[advanced], $dp2F, trod",
+              "[advanced], $reverseDP, $attack",
+              "[], $dp2F, $dp_small_keys|2"
+            ]
+          },
+          {
+            "name": "(3F) Behind Falling Sand",
+            "hosted_item": "dp_chest_14",
+            "access_rules": [
+              "$dp2F, $dp_small_keys|4",
+              "[advanced], $dp2F, trod, boots",
+              "[advanced], $reverseDP",
+              "[], $dp2F, $dp_small_keys|3"
+            ]
+          },
+          {
+            "name": "(3F) Gimos Room",
+            "hosted_item": "dp_chest_15",
+            "access_rules": [
+              "$dp2F, $dp_small_keys|4",
+              "[advanced], $dp2F, trod, boots",
+              "[advanced], $reverseDP",
+              "[], $dp2F, $dp_small_keys|3"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Misery Mire",
+    "color": "#2d3bb7",
+    "children": [
+      {
+        "name": "Misery Mire",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+            "x": 192,
+            "y": 1617
+          }
+        ],
+        "sections": [
+          {
+            "name": "Zaganaga",
+            "hosted_item": "dp_chest_16",
+            "access_rules": ["$zaganaga"]
+            
+            /* [
+      
+              "not_cracksanity, quake, $bawbs, msword, $access_desert_palace, $dp2F, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, quake, $bawbs, [hard], $access_desert_palace, $dp2F, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, quake, $bawbs, [glitched], $glitched_access_desert_palace, $dp2F, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, quake, $bawbs, [advanced], $glitched_access_desert_palace, $dp2F, trod, boots, $dp_big_key",
+              "not_cracksanity, quake, $bawbs, [], $glitched_access_desert_palace, $dp2F, $dp_small_keys|4, $dp_big_key",
+
+              "not_cracksanity, quake, $bawbs, ER, dp_entrance, msword, $dp2F, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, quake, $bawbs, ER, dp_entrance, [hard], $dp2F, $dp_small_keys|5, $dp_big_key",
+              "not_cracksanity, quake, $bawbs, ER, dp_entrance, [advanced], $dp2F, trod, boots, $dp_big_key",
+              "not_cracksanity, quake, $bawbs, ER, dp_entrance, [], $dp2F, $dp_small_keys|4, $dp_big_key",
+
+              "cracksanity, merge, crack_zaganaga, srod, msword",
+              "cracksanity, merge, crack_zaganaga, srod, [hard], $attack",
+              "cracksanity, merge, crack_zaganaga, [hell], msword",
+              "cracksanity, merge, crack_zaganaga, [hell], bow",
+
+              "[advanced], $advanced_misery_mire_oob, boots",
+              "[advanced], $advanced_misery_mire_oob, srod, $attack",
+              "[hell], $hell_misery_mire_oob, boots",
+              "[hell], $hell_misery_mire_oob, srod, $attack",
+              "[hell], $hell_misery_mire_oob, bow",
+              "[hell], $hell_misery_mire_oob, msword"
+            ] */
+
+
+          },
+          {"name": "Pendant of Power", "hosted_item": "power", "access_rules": ["$zaganaga"], "visibility_rules": [ "label_power_dp" ]},
+          {"name": "Pendant of Wisdom", "hosted_item": "wisdom", "access_rules": ["$zaganaga"], "visibility_rules": ["label_wisdom_dp"]},
+          {"name": "Pendant of Courage", "hosted_item": "courage", "access_rules": ["$zaganaga"], "visibility_rules": ["label_courage_dp"]},
+          {"name": "Gulley", "hosted_item": "gulley", "access_rules": ["$zaganaga"], "visibility_rules": ["label_gulley_dp"]},
+          {"name": "Oren", "hosted_item": "oren", "access_rules": ["$zaganaga"], "visibility_rules": ["label_oren_dp"]},
+          {"name": "Seres", "hosted_item": "seres", "access_rules": ["$zaganaga"], "visibility_rules": ["label_seres_dp"]},
+          {"name": "Osfala", "hosted_item": "osfala", "access_rules": ["$zaganaga"], "visibility_rules": ["label_osfala_dp"]},
+          {"name": "Impa", "hosted_item": "impa", "access_rules": ["$zaganaga"], "visibility_rules": ["label_impa_dp"]},
+          {"name": "Irene", "hosted_item": "irene", "access_rules": ["$zaganaga"], "visibility_rules": ["label_irene_dp"]},
+          {"name": "Rosso", "hosted_item": "rosso", "access_rules": ["$zaganaga"], "visibility_rules": ["label_rosso_dp"]}
+        ]
+      }
+    ]
+  }
+]

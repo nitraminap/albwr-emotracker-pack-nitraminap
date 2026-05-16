@@ -1,0 +1,614 @@
+[
+  {
+    "name": "Weather Vanes",
+    "children": [
+      // Hyrule Weather Vanes ------------------------------------------------------------------------------------------
+      {
+        "name": "Hyrule Castle Area",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1045,
+            "y": 1377,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Your House Weather Vane",
+            "hosted_item": "wv_your_house",
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kakariko Village",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 293,
+            "y": 978,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Weather Vane",
+            "hosted_item": "wv_kakariko",
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Eastern Ruins",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1982,
+            "y": 813,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Eastern Palace Weather Vane",
+            "hosted_item": "wv_eastern",
+            "access_rules": [
+              "wv_eastern",
+              "merge",
+              "fsword, great_spin",
+              "bow",
+              "boomerang",
+              "hookshot",
+              "bombs",
+              "irod",
+              "bell, wv_eastern",
+              "[hard], power_glove"
+            ],
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lake Hylia",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1559,
+            "y": 1738,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "House of Gales Weather Vane",
+            "hosted_item": "wv_gales",
+            "access_rules": [
+              "wv_gales",
+              "flippers",
+              "[advanced], irod, hookshot",
+              "[advanced], $fakeFlippers",
+              "[hell], $beeFakeFlippers"
+            ],
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1271,
+            "y": 100,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Tower of Hera Weather Vane",
+            "hosted_item": "wv_hera",
+            "access_rules": [
+              "wv_hera",
+              "power_glove, merge",
+              "$access_dm_west_top",
+              "[glitched], merge",
+              "[advanced], $adv_glitched_access_dm_west_top",
+              "[hell], $hell_access_dm_west_top"
+            ],
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "River Area",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1650,
+            "y": 700,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Witch's House Weather Vane",
+            "hosted_item": "wv_witch",
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Death Mountain",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 1047,
+            "y": 349,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Weather Vane",
+            "hosted_item": "wv_death_hyrule",
+            "access_rules": [
+              "wv_death_hyrule",
+              "$access_dm_west_base",
+              "[glitched]"
+            ],
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desert",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 185,
+            "y": 1737,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Desert Palace Weather Vane",
+            "hosted_item": "wv_desert",
+            "access_rules": [
+              "wv_desert",
+              "$access_desert, srod, scroll",
+              "not_cracksanity, merge, quake, srod",
+              "cracksanity, merge, crack_desert_sw, srod",
+              "[glitched], $access_desert"
+            ],
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "River Area",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "x": 888,
+            "y": 643,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sanctuary Weather Vane",
+            "hosted_item": "wv_sanctuary",
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      // Lorule Weather Vanes ------------------------------------------------------------------------------------------
+      {
+        "name": "Skull Woods Area",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 424,
+            "y": 318,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Skull Woods Weather Vane",
+            "hosted_item": "wv_skull",
+            "access_rules": [
+              "$access_skull_woods_area"
+            ],
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lorule Death Mountain",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 1171,
+            "y": 131,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Treacherous Tower Weather Vane",
+            "hosted_item": "wv_treacherous_tower",
+            "access_rules": [
+              "$access_ldm_west",
+              "[glitched], $glitched_access_ldm_west"
+            ],
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lorule Death Mountain",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 1820,
+            "y": 226,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ice Ruins Weather Vane",
+            "hosted_item": "wv_ice",
+            "access_rules": [
+              "$access_ldm_east_top",
+              "[glitched], $glitched_access_ldm_east_top",
+              "[hell], $hell_access_ldm_east_top"
+            ],
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lorule Castle Area",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 960,
+            "y": 975,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Lorule Castle Weather Vane",
+            "hosted_item": "wv_lorule_castle",
+            "access_rules": [
+              "$access_central_lorule",
+              "[advanced], $advanced_access_central_lorule",
+              "[hell], $hell_access_central_lorule"
+            ],
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Graveyard",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 1233,
+            "y": 730,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Weather Vane",
+            "hosted_item": "wv_graveyard",
+            "access_rules": [
+              "$access_lorule_graveyard",
+              "[lampless], $lampless_access_lorule_graveyard"
+            ],
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lorule Castle Area",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 139,
+            "y": 1035,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Thieves' Town Weather Vane",
+            "hosted_item": "wv_thieves",
+            "access_rules": [
+              "$access_central_lorule",
+              "[advanced], $advanced_access_central_lorule",
+              "[hell], $hell_access_central_lorule"
+            ],
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Ruins",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 1985,
+            "y": 885,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dark Palace Weather Vane",
+            "hosted_item": "wv_dark",
+            "access_rules": [
+              "$access_dark_ruins",
+              "[glitched], $glitched_access_dark_ruins",
+              "[advanced], $advanced_access_dark_ruins",
+              "[hell], $hell_access_dark_ruins"
+            ],
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lorule Castle Area",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 708,
+            "y": 1069,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Blacksmith Weather Vane",
+            "hosted_item": "wv_blacksmith",
+            "access_rules": [
+              "$access_central_lorule",
+              "[advanced], $advanced_access_central_lorule",
+              "[hell], $hell_access_central_lorule"
+            ],
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lorule Castle Area",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 1165,
+            "y": 1390,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Vacant House Weather Vane",
+            "hosted_item": "wv_vacant_house",
+            "access_rules": [
+              "$access_central_lorule",
+              "[advanced], $advanced_access_central_lorule",
+              "[hell], $hell_access_central_lorule"
+            ],
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Misery Mire",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 460,
+            "y": 1828,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Weather Vane",
+            "hosted_item": "wv_mire",
+            "access_rules": [
+              "$access_misery_mire"
+            ],
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lorule Castle Area",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 900,
+            "y": 1849,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Swamp Palace Weather Vane",
+            "hosted_item": "wv_swamp",
+            "access_rules": [
+              "hookshot, $access_central_lorule",
+              "hookshot, [advanced], $advanced_access_central_lorule",
+              "hookshot, [hell], $hell_access_central_lorule"
+            ],
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Turtle Rock Area",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 1635,
+            "y": 1756,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Turtle Rock Weather Vane",
+            "hosted_item": "wv_turtle",
+            "access_rules": [
+              "$access_turtleWV",
+              "[advanced], $advanced_access_turtleWV",
+              "[hell], $hell_access_turtleWV"
+            ],
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lorule Death Mountain",
+        "map_locations": [
+          {
+            "map": "lorule",
+            "x": 1517,
+            "y": 403,
+            "size": 55,
+            "border_thickness": 10,
+            "badge_size": 72
+          }
+        ],
+        "sections": [
+          {
+            "name": "Lorule Death Mountain Weather Vane",
+            "hosted_item": "wv_death_lorule",
+            "access_rules": [
+              "$access_ldm_east_base",
+              "[glitched], $glitched_access_ldm_east_base",
+              "[hell], $hell_access_ldm_east_base"
+            ],
+            "visibility_rules": [
+              "weathervania, $hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+              "weathervania_only"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

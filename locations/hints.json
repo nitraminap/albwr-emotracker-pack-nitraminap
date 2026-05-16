@@ -1,0 +1,1434 @@
+[
+    {
+        "name": "Hyrule Hint Ghosts",
+        "chest_unopened_img": "images/settings/Hints.png",
+        "chest_opened_img": "images/settings/Hints_Disabled.png",
+        "children": [
+            {
+                "name": "Hyrule Castle Area",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 712,
+                        "y": 985,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Behind Blacksmith Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hyrule Castle Area",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 735,
+                        "y": 1141,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Blacksmith Cave Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hyrule Castle Area",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 1196,
+                        "y": 924,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hyrule Castle Rocks Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Hyrule Castle Area",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 996,
+                        "y": 1377,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "StreetPass Tree Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Desert",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 306,
+                        "y": 1878,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Desert Center Ghost",
+                        "access_rules": [
+                            "$access_desert, srod",
+                            "crack_desert_middle"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Desert",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 440,
+                        "y": 1831,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Desert East Ghost",
+                        "access_rules": [
+                            "$access_desert"  
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Desert",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 138,
+                        "y": 1964,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Desert South West Ghost",
+                        "access_rules": [
+                            "$access_desert, scroll",
+                            "[advanced], $boost, $access_desert",
+                            "[hell], $access_desert",
+                            "crack_desert_sw"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Kakariko Village",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 446,
+                        "y": 1421,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Dodge the Cuccos Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Kakariko Village",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 196,
+                        "y": 1470,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hyrule Rupee Rush Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Kakariko Village",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 90,
+                        "y": 800,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kakariko Well Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Kakariko Village",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 436,
+                        "y": 903,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Shady Guy Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Kakariko Village",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 290,
+                        "y": 1091,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stylish Woman Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Eastern Ruins",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 1924,
+                        "y": 1010,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Eastern Ruins Cave Ghost",
+                        "access_rules": [
+                            "merge",
+                            "power_glove"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Eastern Ruins",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 1608,
+                        "y": 1099,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Eastern Ruins Entrance Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Eastern Ruins",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 1750,
+                        "y": 1072,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Eastern Ruins Pegs Ghost",
+                        "access_rules": [
+                            "merge",
+                            "bow",
+                            "hookshot",
+                            "boomerang",
+                            "bombs",
+                            "irod",
+                            "great_spin, fsword",
+                            "bell, wv_eastern",
+                            "[hard], power_glove"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Eastern Ruins",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 1450,
+                        "y": 1465,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Southern Bridge Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Death Mountain",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 1652,
+                        "y": 167,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fire Cave Ghost",
+                        "access_rules": [
+                            "$access_dm_east_top",
+                            "[glitched], merge, hookshot",
+                            "[advanced], $adv_glitched_access_dm_east_top"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Death Mountain",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 1700,
+                        "y": 70,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Floating Island Ghost",
+                        "access_rules": [
+                            "$access_dm_east_top",
+                            "[glitched], merge, hookshot",
+                            "[advanced], $adv_glitched_access_dm_east_top"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Death Mountain",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 1151,
+                        "y": 100,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Outside Tower of Hera Ghost",
+                        "access_rules": [
+                            "power_glove, merge",
+                            "$access_dm_west_top",
+                            "[glitched], merge",
+                            "[advanced], $adv_glitched_access_dm_west_top",
+                            "[hell], $hell_access_dm_west_top"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Death Mountain",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 977,
+                        "y": 110,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Spectacle Rock Ghost",
+                        "access_rules": [
+                            "power_glove, merge",
+                            "$access_dm_west_top",
+                            "[glitched], merge",
+                            "[advanced], $adv_glitched_access_dm_west_top",
+                            "[hell], $hell_access_dm_west_top"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "River Area",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 1226,
+                        "y": 593,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Graveyard Ledge Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "River Area",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 1083,
+                        "y": 660,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hyrule Graveyard Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "River Area",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 764,
+                        "y": 642,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Sanctuary Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "River Area",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 1861,
+                        "y": 606,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Waterfall Cave Ghost",
+                        "access_rules": [
+                            "merge"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "River Area",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 1700,
+                        "y": 700,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Witch's House Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "River Area",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 1868,
+                        "y": 383,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Zora's Domain Ghost",
+                        "access_rules": [
+                            "merge"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lake Hylia",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 1683,
+                        "y": 1738,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "House of Gales Island Ghost",
+                        "access_rules": [
+                            "flippers",
+                            "wv_gales, bell",
+                            "[advanced], irod, hookshot",
+                            "[advanced], $fakeFlippers",
+                            "[hell], boots, bombs",
+                            "[hell], boots, $beeBoost"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lake Hylia",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 1900,
+                        "y": 1612,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hyrule Hotfoot Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lake Hylia",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 1900,
+                        "y": 1663,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Letter in a Bottle Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lost Woods Area",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 350,
+                        "y": 620,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hyrule Fortune-Teller Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lost Woods Area",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 290,
+                        "y": 269,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Lost Woods Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lost Woods Area",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 142,
+                        "y": 85,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Lost Woods Maze Ghost 1/2/3",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 3
+                    }
+                ]
+            },
+            {
+                "name": "Lost Woods Area",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 690,
+                        "y": 390,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Moldorm Cave Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Southern Ruins",
+                "map_locations": [
+                    {
+                        "map": "hyrule",
+                        "x": 1240,
+                        "y": 1908,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Southern Ruins Ghost",
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Lorule Hint Ghosts",
+        "chest_unopened_img": "images/settings/Hints.png",
+        "chest_opened_img": "images/settings/Hints_Disabled.png",
+        "children": [
+            {
+                "name": "Dark Ruins",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 1700,
+                        "y": 900,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Dark Maze Ghost",
+                        "access_rules": [
+                            "$access_dark_ruins, merge",
+                            "[glitched], $glitched_access_dark_ruins, merge",
+                            "[advanced], $advanced_access_dark_ruins, merge",
+                            "[hell], $hell_access_dark_ruins, merge",
+                            "$access_dark_ruins, $dark_palace",
+                            "[glitched], $glitched_access_dark_ruins, $dark_palace",
+                            "[advanced], $advanced_access_dark_ruins, $dark_palace",
+                            "[hell], $hell_access_dark_ruins, $dark_palace"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dark Ruins",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 1860,
+                        "y": 885,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Dark Palace Outside Ghost",
+                        "access_rules": [
+                            "$access_dark_ruins",
+                            "[glitched], $glitched_access_dark_ruins",
+                            "[advanced], $advanced_access_dark_ruins",
+                            "[hell], $hell_access_dark_ruins",
+                            "$weather_vane_lorule|wv_dark"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dark Ruins",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 1650,
+                        "y": 650,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Dark Ruins North Ghost",
+                        "access_rules": [
+                            "$access_dark_ruins",
+                            "[glitched], $glitched_access_dark_ruins",
+                            "[advanced], $advanced_access_dark_ruins",
+                            "[hell], $hell_access_dark_ruins"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lorule Castle Area",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 450,
+                        "y": 1087,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fortune's Choice Ghost",
+                        "access_rules": [
+                            "$access_central_lorule",
+                            "[advanced], $advanced_access_central_lorule",
+                            "[hell], $hell_access_central_lorule"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lorule Castle Area",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 400,
+                        "y": 1300,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Great Rupee Fairy Ghost",
+                        "access_rules": [
+                            "$access_central_lorule",
+                            "[advanced], $advanced_access_central_lorule",
+                            "[hell], $hell_access_central_lorule"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lorule Castle Area",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 675,
+                        "y": 860,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Lorule Fortune-Teller Ghost",
+                        "access_rules": [
+                            "$access_central_lorule",
+                            "[advanced], $advanced_access_central_lorule",
+                            "[hell], $hell_access_central_lorule"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lorule Castle Area",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 190,
+                        "y": 1485,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Lorule Rupee Rush Ghost",
+                        "access_rules": [
+                            "$access_central_lorule",
+                            "[advanced], $advanced_access_central_lorule",
+                            "[hell], $hell_access_central_lorule"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lorule Castle Area",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 722,
+                        "y": 1452,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Octoball Derby Ghost",
+                        "access_rules": [
+                            "$access_central_lorule",
+                            "[advanced], $advanced_access_central_lorule",
+                            "[hell], $hell_access_central_lorule"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lorule Castle Area",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 935,
+                        "y": 1945,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Swamp Palace Outside Left Ghost",
+                        "access_rules": [
+                            "$access_central_lorule",
+                            "[advanced], $advanced_access_central_lorule",
+                            "[hell], $hell_access_central_lorule"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lorule Castle Area",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 990,
+                        "y": 1945,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Swamp Palace Outside Right Ghost",
+                        "access_rules": [
+                            "$access_central_lorule",
+                            "[advanced], $advanced_access_central_lorule",
+                            "[hell], $hell_access_central_lorule"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lorule Castle Area",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 1045,
+                        "y": 1390,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Vacant House Ghost",
+                        "access_rules": [
+                            "$access_central_lorule",
+                            "[advanced], $advanced_access_central_lorule",
+                            "[hell], $hell_access_central_lorule"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lorule Castle Area",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 353,
+                        "y": 1087,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Veteran Thief Ghost",
+                        "access_rules": [
+                            "$access_central_lorule",
+                            "[advanced], $advanced_access_central_lorule",
+                            "[hell], $hell_access_central_lorule"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lorule Death Mountain",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 1943,
+                        "y": 226,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ice Ruins Outside Ghost",
+                        "access_rules": [
+                            "$access_ldm_east_top",
+                            "[glitched], $glitched_access_ldm_east_top",
+                            "[hell], $hell_access_ldm_east_top"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Lorule Death Mountain",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 1120,
+                        "y": 131,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Treacherous Tower Ghost",
+                        "access_rules": [
+                            "$access_ldm_west",
+                            "[glitched], $glitched_access_ldm_west"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Graveyard",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 1233,
+                        "y": 680,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Lorule Graveyard Ghost",
+                        "access_rules": [
+                            "$access_lorule_graveyard",
+                            "[lampless], $lampless_access_lorule_graveyard"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Misery Mire",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 240,
+                        "y": 1918,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Misery Mire Bridge Ghost",
+                        "access_rules": [
+                            "$access_misery_mire, flippers"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Misery Mire",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 350,
+                        "y": 1620,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Misery Mire Ledge Ghost",
+                        "access_rules": [
+                            "$access_misery_mire"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Skull Woods Area",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 590,
+                        "y": 200,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Skull Woods Cuccos Ghost",
+                        "access_rules": [
+                            "$access_skull_woods_area"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Skull Woods Area",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 470,
+                        "y": 720,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Skull Woods South Ghost",
+                        "access_rules": [
+                            "$access_skull_woods_area"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Turtle Rock Area",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 1445,
+                        "y": 1670,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Turtle Bullied Ghost",
+                        "access_rules": [
+                            "$access_lorule_not_cracksanity, flippers",
+                            "cracksanity, crack_lake_lorule, flippers",
+                            "cracksanity, crack_river_lorule, flippers",
+                            "cracksanity, crack_lorule_hotfoot, flippers",
+                            "[glitched], $glitched_access_dark_ruins, $boost, flippers",
+                            "[advanced], $advanced_access_dark_ruins, $boost, flippers",
+                            "[hell], $hell_access_dark_ruins, $beeFakeFlippers",
+                            "[advanced], cracksanity, crack_lorule_hotfoot, $fakeFlippers",
+                            "[hell], cracksanity, crack_lorule_hotfoot, $beeFakeFlippers"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Turtle Rock Area",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 1510,
+                        "y": 1756,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Turtle Rock Outside Ghost",
+                        "access_rules": [
+                            "$access_turtleWV",
+                            "[advanced], $advanced_access_turtleWV",
+                            "[hell], $hell_access_turtleWV"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Turtle Rock Area",
+                "map_locations": [
+                    {
+                        "map": "lorule",
+                        "x": 1480,
+                        "y": 1550,
+                        "size": 55,
+                        "border_thickness": 6
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Turtle Wall Ghost",
+                        "access_rules": [
+                            "not_cracksanity, merge, quake",
+                            "cracksanity, crack_lake_lorule, merge",
+                            "cracksanity, crack_river_lorule, flippers",
+                            "cracksanity, crack_lorule_hotfoot, flippers",
+                            "[glitched], $glitched_access_dark_ruins, $boost, flippers",
+                            "[advanced], $advanced_access_dark_ruins, $boost, flippers",
+                            "[hell], $hell_access_dark_ruins, $beeFakeFlippers",
+                            "[advanced], cracksanity, crack_lorule_hotfoot, $fakeFlippers",
+                            "[hell], cracksanity, crack_lorule_hotfoot, $beeFakeFlippers"
+                        ],
+                        "visibility_rules": [
+                            "hint_ghosts, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                            "hint_ghosts_only"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

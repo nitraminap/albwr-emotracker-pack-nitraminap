@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Hyrule Castle",
+    "map_locations": [
+      {
+        "map": "hyrule",
+        "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+        "x": 928,
+        "y": 926
+      }
+    ],
+    "sections": [
+      {
+        "name": "West Wing",
+        "item_count": 1,
+        "access_rules": [
+          "msword",
+          "swordless",
+          "[], $barrier_skip"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hyrule Castle",
+    "map_locations": [
+      {
+        "map": "hyrule",
+        "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+        "x": 1070,
+        "y": 1048
+      }
+    ],
+    "sections": [
+      {
+        "name": "Battlement",
+        "item_count": 1,
+        "access_rules": [
+          "{csmc}",
+          "msword",
+          "swordless",
+          "[], $barrier_skip"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hyrule Castle",
+    "map_locations": [
+      {
+        "map": "hyrule",
+        "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+        "x": 1024,
+        "y": 934
+      }
+    ],
+    "sections": [
+      {
+        "name": "Throne",
+        "capture_item": true,
+        "item_count": 1,
+        "access_rules": [
+          "msword, impa",
+          "swordless, impa",
+          "[], impa, $barrier_skip"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1352 @@
+[
+  {
+    "name": "Hyrule Overworld",
+    "children": [
+      {
+        "name": "Lost Woods Area",
+        "children": [
+          {
+            "name": "Lost Woods Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 354,
+                "y": 256
+              }
+            ],
+            "sections": [
+              {
+                "name": "Lost Woods Chest",
+                "access_rules": [
+                  "{csmc}",
+                  "titansmitt",
+                  "[hell], boomerang",
+                  "[hell], not_nice_mode, hookshot, $hasNot|nicehookshot",
+                  "[], hookshot, $hasNot|nicehookshot"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Lost Woods Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 226,
+                "y": 227
+              }
+            ],
+            "sections": [
+              {
+                "name": "Lost Woods Alcove",
+                "access_rules": [
+                  "merge",
+                  "[glitched], boomerang, $escape",
+                  "[glitched], [not_nice_mode], hookshot, $escape, $hasNot|nicehookshot",
+                  "[hell], boomerang",
+                  "[hell], [not_nice_mode], hookshot, $hasNot|nicehookshot",
+                  "[], hookshot, $hasNot|nicehookshot"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Lost Woods Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 142,
+                "y": 149
+              }
+            ],
+            "sections": [
+              {
+                "name": "Master Sword Pedestal",
+                "access_rules": [
+                  "ped_requirement_3, power, wisdom, courage",
+                  "ped_requirement_2, power, wisdom"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Lost Woods Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "x": 696,
+                "y": 146
+              }
+            ],
+            "sections": [
+              {
+                "name": "Rosso (1)",
+                "access_rules": [
+                  "rosso"
+                ],
+                "capture_item": true,
+                "item_count": 1,
+                "visibility_rules": [
+                  "$hasNot|cracksanity_only, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only, $hasNot|ER_only"
+                ]
+              },
+              {
+                "name": "Rosso (2) (Smash Rocks)",
+                "access_rules": [
+                  "rosso, power_glove"
+                ],
+                "capture_item": true,
+                "item_count": 1,
+                "visibility_rules": [
+                  "$hasNot|cracksanity_only, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only, $hasNot|ER_only"
+                ]
+              },
+              {
+                "hosted_item":"crack_rossos_house",
+                "name": "Rosso's House Crack",
+                "access_rules": [
+                  "rosso"
+                ],
+                "visibility_rules": [
+                  "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only, $hasNot|ER_only",
+                  "cracksanity_only"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Lost Woods Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 696,
+                "y": 74
+              }
+            ],
+            "sections": [
+              {
+                "name": "Rosso Cave",
+                "access_rules": [
+                  "hammer",
+                  "[glitched], boomerang",
+                  "[glitched], [not_nice_mode], hookshot, $hasNot|nicehookshot",
+                  "[advanced], [not_nice_mode], shield, trod, $hasNot|nicetrod",
+                  "[], hookshot, $hasNot|nicehookshot",
+                  "[], shield, trod, $hasNot|nicetrod"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Lost Woods Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 438,
+                "y": 672
+              }
+            ],
+            "sections": [
+              {
+                "name": "Fortune-Teller",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Lost Woods Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 1953,
+                "y": 1548
+              },
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 624,
+                "y": 91
+              }
+            ],
+            "sections": [
+              {
+                "name": "Hyrule Hotfoot 75s",
+                "access_rules": [
+                  "boots",
+                  "[hard]"
+                ],
+                "visibility_rules": [
+                  "minigames_enabled"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Hyrule Hotfoot 65s",
+                "access_rules": [
+                  "boots",
+                  "[hard], merge, bell, not_cracksanity",
+                  "[hell]"
+                ],
+                "visibility_rules": [
+                  "minigames_enabled"
+                ],
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "River Area",
+        "children": [
+          {
+            "name": "River Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 948,
+                "y": 630
+              }
+            ],
+            "sections": [
+              {
+                "name": "Dampé",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "River Area - Hyrule Sanctuary",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 1147,
+                "y": 652
+              }
+            ],
+            "access_rules": [
+              "fsword",
+              "power_glove",
+              "lamp",
+              "frod",
+              "bombs",
+              "irod",
+              "boots"
+            ],
+            "sections": [
+              {
+                "name": "Entrance",
+                "item_count": 1
+              },
+              {
+                "name": "Lower Chest",
+                "access_rules": [
+                  "lamp",
+                  "$lampless, frod"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Upper Chest",
+                "access_rules": [
+                  "lamp",
+                  "$lampless, frod"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Ledge",
+                "access_rules": [
+                  //"{lamp}",
+                  //"{$lampless, frod}",
+                  "lamp, merge",
+                  "$lampless, frod, merge"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "River Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "x": 1162,
+                "y": 580,
+                "badge_size": 40
+              }
+            ],
+            "sections": [
+              {
+                "hosted_item": "crack_graveyard",
+                "name": "Graveyard Ledge Crack",
+                "access_rules": [
+                  "crack_graveyard"
+                ],
+                "visibility_rules": [
+                  "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only, $hasNot|ER_only",
+                  "cracksanity_only"
+                ]
+              },
+              {
+                "name": "Graveyard Ledge Cave",
+                "capture_item": true,
+                "access_rules": [
+                  "merge, crack_graveyard",
+                  "not_cracksanity, $crack, crack_graveyard_lorule"
+                ],
+                "visibility_rules": [
+                  "$hasNot|cracksanity_only, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only, $hasNot|ER_only"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "River Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 1350,
+                "y": 586
+              }
+            ],
+            "sections": [
+              {
+                "name": "River Mini-Dungeon",
+                "access_rules": [
+                  "{csmc, bombs}",
+                  "bombs, merge"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "River Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 828,
+                "y": 654
+              }
+            ],
+            "sections": [
+              {
+                "name": "Sanctuary Pegs",
+                "access_rules": [
+                  "{csmc}",
+                  "!hammer"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "River Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 1826,
+                "y": 670
+              }
+            ],
+            "sections": [
+              {
+                "name": "Zora's Domain Ledge",
+                "access_rules": [
+                  "{csmc, flippers}",
+                  "{csmc, hell, $beeBoost}",
+                  "merge"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "River Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 1804,
+                "y": 370
+              }
+            ],
+            "sections": [
+              {
+                "name": "Bump into Shady Guy",
+                "access_rules": [
+                  "merge",
+                  "[hell], $beeBoost"
+                ],
+                "hosted_item": "shadyguy",
+                "item_count": 0
+              }
+            ]
+          },
+          {
+            "name": "River Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 1848,
+                "y": 542
+              }
+            ],
+            "sections": [
+              {
+                "name": "Waterfall Cave",
+                "capture_item": true,
+                "access_rules": [
+                  "flippers",
+                  "[glitched], merge",
+                  "[advanced], $fakeFlippers",
+                  "[hell], $beeBoost"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "River Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 1804,
+                "y": 298
+              }
+            ],
+            "sections": [
+              {
+                "name": "Queen Oren",
+                "access_rules": [
+                  "merge, oren, smooth_gem",
+                  "[hell], oren, smooth_gem, $beeBoost"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kakariko Village",
+        "children": [
+          {
+            "name": "Kakariko Village",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 353,
+                "y": 1170
+              }
+            ],
+            "sections": [
+              {
+                "name": "Milk Bar (Trade Letter in a Bottle)",
+                "hosted_item": "premium_milk",
+                "visibility_rules": [
+                  "not_random"
+                ],
+                "access_rules": [
+                  "bottle_letter"
+                ],
+                "item_count": 0
+              }
+            ]
+          },
+          {
+            "name": "Kakariko Village",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "x": 226,
+                "y": 1078,
+                "badge_size": 40
+              }
+            ],
+            "sections": [
+              {
+                "name": "Stylish Woman",
+                "item_count": 1,
+                "access_rules": [
+                  "not_cracksanity, $crack, crack_thieves_town",
+                  "not_cracksanity, $crack, $access_central_lorule, not_random_hidden",
+                  "merge, crack_stylish_woman"
+                ],
+                "visibility_rules": [
+                  "$hasNot|cracksanity_only, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only, $hasNot|ER_only"
+                ]
+              },
+              {
+                "name": "Stylish Woman's House Crack",
+                "hosted_item": "crack_stylish_woman",
+                "access_rules": [
+                  "crack_stylish_woman"
+                ],
+                "visibility_rules": [
+                  "cracksanity, $hasNot|maiamai_map_only, $hasNot|weathervania_only, $hasNot|hint_ghosts_only, $hasNot|ER_only",
+                  "cracksanity_only"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Kakariko Village",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "x": 444,
+                "y": 967
+              }
+            ],
+            "sections": [
+              {
+                "name": "Woman's Roof",
+                "item_count": 1,
+                "chest_unopened_img": "images/items/maiamai.png",
+                "chest_opened_img": "images/items/maiamai_opened.png",
+                "visibility_rules": [
+                  "maiamai_map, $hasNot|hint_ghosts_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only",
+                  "maiamai_map_only"
+                ],
+                "access_rules": [
+                  "power_glove"
+                ]
+              },
+              {
+                "name": "Woman",
+                "visibility_rules": [
+                  "$hasNot|maiamai_map_only, $hasNot|hint_ghosts_only, $hasNot|weathervania_only, $hasNot|cracksanity_only, $hasNot|ER_only"
+                ],
+                "access_rules": [
+                  "power_glove"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Kakariko Village",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 353,
+                "y": 1078
+              }
+            ],
+            "sections": [
+              {
+                "name": "Bee Guy (1) (Have Empty Bottle)",
+                "access_rules": [
+                  "$has_bottle"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Bee Guy (2) (Trade Golden Bee)",
+                "access_rules": [
+                  "golden_bee",
+                  "[hell], $has_bottle, net"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Kakariko Village",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 382,
+                "y": 1432
+              }
+            ],
+            "sections": [
+              {
+                "name": "Dodge the Cuccos (Rooster Mode)",
+                "visibility_rules": [
+                  "minigames_enabled"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Kakariko Item Shop",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 144,
+                "y": 935
+              }
+            ],
+            "sections": [
+              {
+                "name": "Scoot Fruit",
+                "hosted_item": "scoot",
+                "visibility_rules": [
+                  "not_random"
+                ]
+              },
+              {
+                "name": "Foul Fruit",
+                "hosted_item": "foul",
+                "visibility_rules": [
+                  "not_random"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Kakariko Village",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 300,
+                "y": 853
+              }
+            ],
+            "sections": [
+              {
+                "name": "Kakariko Jail",
+                "access_rules": [
+                  "{csmc}",
+                  "merge"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Kakariko Village",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 216,
+                "y": 959
+              }
+            ],
+            "sections": [
+              {
+                "name": "Street Merchant (Left)",
+                "chest_opened_img": "images/checks/soldout.png",
+                "capture_item": true,
+                "item_count": 1
+              },
+              {
+                "name": "Street Merchant (Right)",
+                "chest_opened_img": "images/checks/soldout.png",
+                "capture_item": true,
+                "access_rules": [
+                  "shadyguy"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Kakariko Village",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 372,
+                "y": 915
+              }
+            ],
+            "sections": [
+              {
+                "name": "Shady Guy",
+                "access_rules": [
+                  "shadyguy, merge",
+                  "shadyguy, boots"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Kakariko Village",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 111,
+                "y": 863
+              }
+            ],
+            "sections": [
+              {
+                "name": "Kakariko Well (Top)",
+                "access_rules": [
+                  "power_glove",
+                  "[hard]"
+                ],
+                "item_count": 1
+              },
+              {
+                "name": "Kakariko Well (Bottom)",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Kakariko Village",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 257, 
+                "y": 1458 
+              }
+            ],
+            "sections": [
+              {
+                "name": "Rupee Rush (Score 100+) (Buy any item from Ravio to unlock)",
+                "visibility_rules": [
+                  "minigames_enabled"
+                ],
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ravio's Shop",
+        "color": "#a000ac",
+        "map_locations": [
+          {
+            "map": "hyrule",
+            "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+            "x": 1105,
+            "y": 1377
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ravio's Gift",
+            "item_count": 1
+          },
+          {
+            "name": "For Sale",
+            "capture_item": true,
+            "clear_as_group": false,
+            "item_count": 8
+          },
+          {
+            "name": "Rented by Osfala",
+            "capture_item": true,
+            "item_count": 1,
+            "access_rules": [
+              "{}",
+              "osfala"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hyrule Castle Area",
+        "children": [
+          {
+            "name": "Hyrule Castle Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 648,
+                "y": 1056
+              }
+            ],
+            "sections": [
+              {
+                "name": "Blacksmith Table",
+                "item_count": 1
+              },
+              {
+                "name": "Blacksmith",
+                "access_rules": [
+                  "ore_2"
+                ],
+                "capture_item": true,
+                "hosted_item": "blacksmith"
+              }
+            ]
+          },
+          {
+            "name": "Hyrule Castle Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 648,
+                "y": 985
+              }
+            ],
+            "sections": [
+              {
+                "name": "Blacksmith Ledge",
+                "access_rules": [
+                  "merge",
+                  "[glitched], $boost",
+                  "[hell], $beeBoost"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Hyrule Castle Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 670,
+                "y": 1128
+              }
+            ],
+            "sections": [
+              {
+                "name": "Blacksmith Cave",
+                "access_rules": [
+                  "titansmitt",
+                  "[glitched], $boost",
+                  "[hell], $beeBoost"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Hyrule Castle Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 1209,
+                "y": 860
+              }
+            ],
+            "sections": [
+              {
+                "name": "Hyrule Castle Rocks",
+                "access_rules": [
+                  "power_glove"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Hyrule Castle Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 660,
+                "y": 1396
+              }
+            ],
+            "sections": [
+              {
+                "name": "Haunted Grove Stump",
+                "access_rules": [
+                  "courage"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Hyrule Castle Area",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 564,
+                "y": 1624
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cucco Mini-Dungeon (Silver Rupee)",
+                "access_rules": [
+                  "merge"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Eastern Ruins",
+        "children": [
+
+          {
+            "name": "Eastern Ruins",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 1438,
+                "y": 1403
+              }
+            ],
+            "sections": [
+              {
+                "name": "Bird Lover",
+                "access_rules": [
+                  "flippers"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Irene the Witch",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 1366,
+                "y": 1403
+              },
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 536,
+                "y": 672
+              },
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 716,
+                "y": 739
+              }
+            ],
+            "sections": [
+              {
+                "name": "Irene",
+                "capture_item": true,
+                "access_rules": [
+                  "irene"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Eastern Ruins",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 1921,
+                "y": 944
+              }
+            ],
+            "sections": [
+              {
+                "name": "Cave",
+                "access_rules": [
+                  "bombs, merge"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Eastern Ruins",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 1948,
+                "y": 1448
+              }
+            ],
+            "sections": [
+              {
+                "name": "Peg Circle",
+                "access_rules": [
+                  "hammer",
+                  "[glitched], boomerang",
+                  "[glitched], hookshot",
+                  "[advanced], trod",
+                  "[hell], srod"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Eastern Ruins Gated Area",
+            "access_rules": [
+              "merge",
+              "bow",
+              "hookshot",
+              "boomerang",
+              "bombs",
+              "irod",
+              "great_spin, fsword",
+              "bell, wv_eastern",
+              "[hard], power_glove"
+            ],
+            "children": [
+              {
+                "name": "Eastern Ruins",
+                "map_locations": [
+                  {
+                    "map": "hyrule",
+                    "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                    "x": 1729,
+                    "y": 837
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Armos Chest",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Eastern Ruins",
+                "map_locations": [
+                  {
+                    "map": "hyrule",
+                    "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                    "x": 1729,
+                    "y": 909
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Hookshot Chest",
+                    "access_rules": [
+                      "{csmc}",
+                      "hookshot"
+                    ],
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Eastern Ruins",
+                "map_locations": [
+                  {
+                    "map": "hyrule",
+                    "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                    "x": 1812,
+                    "y": 814
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Merge Chest",
+                    "access_rules": [
+                      "{csmc}",
+                      "merge",
+                      "[glitched], trod",
+                      "[glitched], frod",
+                      "[glitched], nicebombs",
+                      "[hell], bombs",
+                      "[]"
+                    ],
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Eastern Ruins",
+                "map_locations": [
+                  {
+                    "map": "hyrule",
+                    "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                    "x": 1640,
+                    "y": 925
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Merge Mini-Dungeon",
+                    "access_rules": [
+                      "merge"
+                    ],
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Southern Ruins",
+        "children": [
+          {
+            "name": "Southern Ruins",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 835,
+                "y": 1770
+              }
+            ],
+            "sections": [
+              {
+                "name": "Ledge",
+                "access_rules": [
+                  "{csmc}",
+                  "merge"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Southern Ruins",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 1070,
+                "y": 1573
+              }
+            ],
+            "sections": [
+              {
+                "name": "Runaway Item Seller",
+                "access_rules": [
+                  "bombs, scoot"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Southern Ruins",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 1139,
+                "y": 1768
+              }
+            ],
+            "sections": [
+              {
+                "name": "Pillars Cave",
+                "access_rules": [
+                  "bombs"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Southern Ruins",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 967,
+                "y": 1866
+              }
+            ],
+            "sections": [
+              {
+                "name": "Flippers Mini-Dungeon",
+                "access_rules": [
+                  "{csmc, titansmitt}",
+                  "{csmc, glitched, fsword, irod}",
+                  "{csmc, advanced, irod}",
+                  "titansmitt, flippers, hookshot, boomerang",
+                  "[hard], titansmitt, hookshot, flippers, msword",
+                  "[hard], titansmitt, hookshot, flippers, bombs",
+                  "[glitched], fsword, irod, flippers, hookshot",
+                  "[glitched], fsword, irod, nicebombs",
+                  "[glitched], titansmitt, nicebombs",
+                  "[glitched], great_spin, fsword, irod",
+                  "[glitched], great_spin, fsword, titansmitt",
+                  "[glitched], fsword, niceirod, boomerang",
+                  "[glitched], fsword, niceirod, hookshot",
+                  "[glitched], fsword, niceirod, flippers",
+                  "[advanced], irod, flippers, hookshot",
+                  "[advanced], irod, nicebombs",
+                  "[advanced], niceirod, boomerang",
+                  "[advanced], niceirod, hookshot",
+                  "[advanced], niceirod, flippers, fsword",
+                  "[advanced], niceirod, flippers, bow",
+                  "[advanced], niceirod, flippers, boots",
+                  "[advanced], niceirod, flippers, hammer",
+                  "[hell], niceirod"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lake Hylia",
+        "children": [
+          {
+            "name": "Lake Hylia",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 1731,
+                "y": 1678
+              }
+            ],
+            "sections": [
+              {
+                "name": "Ledge Chest",
+                "access_rules": [
+                  "{csmc, flippers}",
+                  "{csmc, wv_gales, bell}",
+                  "merge"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Lake Hylia",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 1809,
+                "y": 1548
+              }
+            ],
+            "sections": [
+              {
+                "name": "Ice Rod Cave",
+                "access_rules": [
+                  "{csmc, trod}",
+                  "{csmc, irod}",
+                  "bombs"
+                ],
+                "capture_item": true,
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Lake Hylia",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 1887,
+                "y": 1727
+              }
+            ],
+            "sections": [
+              {
+                "name": "Eastern Shore",
+                "access_rules": [
+                  "flippers",
+                  "[glitched], frod",
+                  "[glitched], nicebombs",
+                  "[hell], $beeBoost"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Lake Hylia",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 1331,
+                "y": 1917
+              }
+            ],
+            "sections": [
+              {
+                "name": "Dark Cave",
+                "access_rules": [
+                  "$fire"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Lakeside Item Shop",
+            "map_locations": [
+              {
+                "map": "hyrule",
+                "force_invisibility_rules": ["maiamai_map_only", "weathervania_only", "cracksanity_only", "hint_ghosts_only", "ER_only"],
+                "x": 1318,
+                "y": 1592
+              }
+            ],
+            "sections": [
+              {
+                "name": "Scoot Fruit",
+                "hosted_item": "scoot",
+                "visibility_rules": [
+                  "not_random"
+                ]
+              },
+              {
+                "name": "Foul Fruit",
+                "hosted_item": "foul",
+                "visibility_rules": [
+                  "not_random"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

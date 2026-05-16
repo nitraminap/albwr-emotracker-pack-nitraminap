@@ -1,0 +1,193 @@
+{
+  "lorule_castle": {
+    "type": "viewbox",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "h_alignment": "center",
+        "v_alignment": "center",
+        "margin": "0,0,0,-8",
+        "content": [
+          {
+            "type": "array",
+            "h_alignment": "center",
+            "v_alignment": "center",
+            "content": [
+              {
+                "type": "container",
+                "content": [
+                  {
+                    "type": "map",
+                    "width": 250,
+                    "scale": 1.5,
+                    "margin": "-25,-20,-25,-50",
+                    "maps": [
+                      "lorule3F"
+                    ]
+                  },
+                  {
+                    "type": "canvas",
+                    "dropshadow": true,
+                    "content": [
+                      {
+                        "type": "image",
+                        "image": "images/floors/3F.png",
+                        "width": 50,
+                        "canvas_top": 10,
+                        "canvas_left": 235
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "container",
+                "content": [
+                  {
+                    "type": "map",
+                    "width": 250,
+                    "scale": 1.5,
+                    "margin": "-25,-20,-25,-50",
+                    "maps": [
+                      "lorule2F"
+                    ]
+                  },
+                  {
+                    "type": "canvas",
+                    "dropshadow": true,
+                    "content": [
+                      {
+                        "type": "image",
+                        "image": "images/floors/2F.png",
+                        "width": 50,
+                        "canvas_top": 10,
+                        "canvas_left": 235
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "container",
+                "content": [
+                  {
+                    "type": "map",
+                    "width": 250,
+                    "scale": 1.5,
+                    "margin": "-25,-20,-25,-25",
+                    "maps": [
+                      "lorule1F"
+                    ]
+                  },
+                  {
+                    "type": "canvas",
+                    "dropshadow": true,
+                    "content": [
+                      {
+                        "type": "image",
+                        "image": "images/floors/1F.png",
+                        "width": 50,
+                        "canvas_top": 10,
+                        "canvas_left": 235
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "array",
+            "h_alignment": "center",
+            "v_alignment": "center",
+            "margin": "0,0,0,25",
+            "content": [
+              {
+                "type": "container",
+                "content": [
+                  {
+                    "type": "map",
+                    "width": 250,
+                    "scale": 1.5,
+                    "margin": "-25,-20,-25,-50",
+                    "maps": [
+                      "throneRoom"
+                    ]
+                  },
+                  {
+                    "type": "canvas",
+                    "dropshadow": true,
+                    "content": [
+                      {
+                        "type": "image",
+                        "image": "images/floors/1F_Boss.png",
+                        "width": 50,
+                        "canvas_top": 10,
+                        "canvas_left": 235
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "container",
+                "content": [
+                  {
+                    "type": "map",
+                    "width": 250,
+                    "scale": 1.5,
+                    "margin": "-25,-20,-25,-50",
+                    "maps": [
+                      "lorule5F"
+                    ]
+                  },
+                  {
+                    "type": "canvas",
+                    "dropshadow": true,
+                    "content": [
+                      {
+                        "type": "image",
+                        "image": "images/floors/5F.png",
+                        "width": 50,
+                        "canvas_top": 10,
+                        "canvas_left": 235
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "container",
+                "content": [
+                  {
+                    "type": "map",
+                    "width": 250,
+                    "scale": 1.5,
+                    "margin": "-25,-20,-25,-50",
+                    "maps": [
+                      "lorule4F"
+                    ]
+                  },
+                  {
+                    "type": "canvas",
+                    "dropshadow": true,
+                    "content": [
+                      {
+                        "type": "image",
+                        "image": "images/floors/4F.png",
+                        "width": 50,
+                        "canvas_top": 10,
+                        "canvas_left": 235
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
