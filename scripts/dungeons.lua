@@ -420,11 +420,11 @@ function canEnterLC()
         return true
     end
 
-    if hasAll({"not_cracksanity", "merge", "crack_hc"}) and hasAny({"trials_door_open", "lc_trials_door"}) then
+    if hasAll({"not_cracksanity", "merge", "crack_hc", "lc_trials_door"}) then
         return true
     end
 
-    if hasAll({ "cracksanity", "crack_lc", "merge" }) and hasAny({"trials_door_open", "lc_trials_door"}) then
+    if hasAll({ "cracksanity", "crack_lc", "merge", "lc_trials_door"}) then
         return true
     end
 
