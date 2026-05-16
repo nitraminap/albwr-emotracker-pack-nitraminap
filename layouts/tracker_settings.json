@@ -28,11 +28,11 @@
           ],
           [
             "keysy",
-            "weathervania",
             "beeBoost_hide",
-            "hint_ghosts",
             "nice_mode",
-            "maiamai_map"
+            "maiamai_map",
+            "hint_ghosts",
+            "weathervania"
           ]
         ]
       }
