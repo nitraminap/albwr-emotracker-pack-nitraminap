@@ -64,27 +64,7 @@
         "codes": "maiamai_limit_100"
       }
     ]
-  },  
-  {
-    "name": "Master Sword Pedestal Requirement",
-    "type": "progressive",
-    "loop": true,
-    "allow_disabled": false,
-    "stages": [
-      {
-        "img": "images/settings/Pedestal3.png",
-        "img_mods": "overlay|images/settings/Normal.png",
-        "codes": "ped_requirement_3",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/settings/Pedestal2.png",
-        "img_mods": "overlay|images/settings/Vanilla.png",
-        "codes": "ped_requirement_2",
-        "inherit_codes": false
-      }
-    ]
-  },  
+  },    
   {
     "name": "Regions",
     "type": "progressive",
@@ -135,6 +115,44 @@
       {
         "img": "images/maps/regions-lorule.png",
         "codes": "regions_lorule",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Required Lorule Castle Trials",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 4,
+    "stages": [
+      {
+        "img": "images/keys/Trials0.png",
+        "codes": "trials_door_open",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/keys/Trials1.png",
+        "img_mods": "overlay|images/numbers/purple_1.png",
+        "codes": "trials_door_1",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/keys/Trials2.png",
+        "img_mods": "overlay|images/numbers/purple_2.png",
+        "codes": "trials_door_2",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/keys/Trials3.png",
+        "img_mods": "overlay|images/numbers/purple_3.png",
+        "codes": "trials_door_3",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/keys/Trials4.png",
+        "img_mods": "overlay|images/numbers/purple_4.png",
+        "codes": "trials_door_4",
         "inherit_codes": false
       }
     ]
@@ -350,39 +368,21 @@
     ]
   },
   {
-    "name": "Required Lorule Castle Trials",
+    "name": "Master Sword Pedestal Requirement",
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
-    "initial_stage_idx": 4,
     "stages": [
       {
-        "img": "images/keys/Trials0.png",
-        "codes": "trials_door_open",
+        "img": "images/settings/Pedestal3.png",
+        "img_mods": "overlay|images/settings/Normal_csmc.png",
+        "codes": "ped_requirement_3",
         "inherit_codes": false
       },
       {
-        "img": "images/keys/Trials1.png",
-        "img_mods": "overlay|images/numbers/purple_1.png",
-        "codes": "trials_door_1",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/keys/Trials2.png",
-        "img_mods": "overlay|images/numbers/purple_2.png",
-        "codes": "trials_door_2",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/keys/Trials3.png",
-        "img_mods": "overlay|images/numbers/purple_3.png",
-        "codes": "trials_door_3",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/keys/Trials4.png",
-        "img_mods": "overlay|images/numbers/purple_4.png",
-        "codes": "trials_door_4",
+        "img": "images/settings/Pedestal2.png",
+        "img_mods": "overlay|images/settings/Vanilla.png",
+        "codes": "ped_requirement_2",
         "inherit_codes": false
       }
     ]
